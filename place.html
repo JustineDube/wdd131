@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Home</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Zimbabwe</h1>
+  </header>
+
+  <main>
+  
+    <section class="hero">
+      <picture>
+        <source srcset="images/zimbabwe3.webp" media="(max-width: 500px)" />
+        <source srcset="images/zimbabwe2.webp" media="(max-width: 1000px)" />
+        <img src="images/zimbabwe1.webp" alt="Scenic view of my favorite place" width="100%" />
+      </picture>
+    </section>
+
+    
+    <section class="description">
+      <h2>About the Place</h2>
+      <p>Zimbabwe is beautiful and special because of its landscape,culture and wildlife. It is home to one of the world's wonders Victoria Falls</p>
+    </section>
+
+    
+    <section class="weather">
+      <h2>Weather</h2>
+      
+      <div class="weather-icon-mobile">
+        <img src="images/weathericon.webp" alt="Cloudy weather icon" />
+      </div>
+      
+      <p>Temperature: <span id="temperature">8°C</span></p>
+      <p>Wind Speed: <span id="windSpeed">10 km/h</span></p>
+      <p>Wind Chill: <span id="windChill">Calculating...</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> |Justine Dube |Zimbabwe</p>
+    <p>Last updated: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
