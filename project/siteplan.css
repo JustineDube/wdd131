@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAF3E0; /* beige background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2E8B57; /* green header */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif; /* serif headings */
+}
+
+.tagline {
+    font-style: italic;
+}
+
+section {
+    padding: 1rem 2rem;
+}
+
+.color-swatch {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+.green {
+    background-color: #2E8B57;
+}
+
+.yellow {
+    background-color: #FFD700;
+}
+
+.beige {
+    background-color: #FAF3E0;
+}
+
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
